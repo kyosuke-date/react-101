@@ -8,7 +8,7 @@ const Items = () => {
 
   return (
     <>
-      <table>
+      <table className="table table-hover">
         <thead>
           <tr>
             <th>ID</th>

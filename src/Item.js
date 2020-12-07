@@ -14,7 +14,7 @@ const Item = ({ value }) => {
     <tr>
       <td>{value.id}</td>
       <td>{value.event}</td>
-      <td><button type="button" onClick={doDelete}>delete</button></td>
+      <td><button className="btn btn-danger" type="button" onClick={doDelete}>delete</button></td>
     </tr>
   )
 }
