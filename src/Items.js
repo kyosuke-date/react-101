@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
-import AppContext from './context/AppContext';
-import Item from './Items'
+import AppContext from './contexts/AppContext';
+import Item from './Item'
 
 const Items = () => {
   const { state } = useContext(AppContext);
@@ -8,7 +8,7 @@ const Items = () => {
 
   return (
     <>
-      <table className="table table-hover">
+      <table>
         <thead>
           <tr>
             <th>ID</th>
